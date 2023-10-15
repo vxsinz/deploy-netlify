@@ -22,6 +22,7 @@ nav {
 .logo img {
     padding: 0rem;
     width: 20%;
+    background-size: cover;
 }
 
 .menu {
@@ -70,12 +71,6 @@ nav {
     color: #d85730;
 }
 
-.hero-info2 a {
-    margin: 3rem 0;
-    font-size: 2rem;
-    color: #d85730;
-}
-
 .hero-info .hero-btn {
     display: inline-block;
     background-color: orange;
@@ -88,6 +83,7 @@ nav {
 .hero-img img {
     padding: .6rem .2rem;
     width: 50%;
+    background-size: cover;
 }
 
 .footer-top {
@@ -140,4 +136,33 @@ nav {
 .footer-top-item b {
     margin: 0.5rem 0;
     font-size: 2rem;
+}
+.hero2 {
+    background-color: #8a0303;
+    width: 100%;
+    height: 100%;
+}
+
+.hero2-con {
+    display: flex;
+}
+
+.hero2-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.hero2-info h3 {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.hero2-info p {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: #d85730;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: .2rem 1rem;
 }
