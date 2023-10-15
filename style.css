@@ -12,6 +12,7 @@
 nav {
     padding: 1rem;
     background-color: #ffffff;
+    background-size: cover;
 }
 
 .nav-con {
@@ -45,43 +46,34 @@ nav {
     padding: .5rem 1rem;
 }
 
-.hero {
+.home {
     background-color: #8a0303;
     width: 100vw;
     height: 100%;
     background-size: cover;
 }
 
-.hero-con {
+.home-con {
     display: flex;
 }
 
-.hero-info {
+.home-info {
     width: 100%;
     padding: 2rem;
 }
 
-.hero-info h3 {
+.home-info h3 {
     font-size: 5rem;
     color: #ffffff;
 }
 
-.hero-info p {
+.home-info p {
     margin: 1rem 0;
     font-size: 2rem;
     color: #d85730;
 }
 
-.hero-info .hero-btn {
-    display: inline-block;
-    background-color: orange;
-    color: #fff;
-    padding: .5rem 1rem;
-    border-radius: 50px;
-    text-decoration: none;
-}
-
-.hero-img img {
+.home-img img {
     padding: .6rem .2rem;
     width: 50%;
     background-size: cover;
