@@ -47,8 +47,9 @@ nav {
 
 .hero {
     background-color: #8a0303;
-    width: 100%;
+    width: 100vw;
     height: 100%;
+    background-size: cover;
 }
 
 .hero-con {
@@ -87,10 +88,12 @@ nav {
 }
 
 .footer-top {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     padding: 3rem;
     background-color: #333;
     color: #fff;
+    background-size: cover;
 }
 
 .footer-top-con {
