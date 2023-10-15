@@ -91,6 +91,7 @@ nav {
 }
 
 .footer-top {
+    width: 100%;
     padding: 3rem;
     background-color: #333;
     color: #fff;
