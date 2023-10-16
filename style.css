@@ -140,6 +140,18 @@ nav ul li a:hover {
       border-radius: 10px;
 }
 
+.image-cre {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+}
+.image-cre img {
+      flex: 1;
+      max-width: 24%;
+      height: auto;
+      border-radius: 10px;
+}
+
 .footer-top {
       width: 100vw;
       height: 100vh;
