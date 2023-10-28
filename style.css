@@ -61,6 +61,7 @@ nav ul li a:hover {
 .content-image img {
       width: 100%; 
       height: auto;
+      animation: slideIn2 2s ease-out; /* เพิ่มการเลื่อน */
 }
   
 .content-text {
@@ -70,6 +71,7 @@ nav ul li a:hover {
       text-align: center;
       color: #ffffff;
       font-family: 'Oswald', sans-serif;
+      animation: slideIn 2s ease-out; /* เพิ่มการเลื่อน */
 }
 
 .content-text img{
@@ -127,6 +129,26 @@ nav ul li a:hover {
       padding: 20px;
       margin: 10px 0;
       text-align: right;
+      justify-content: space-between;
+      animation: slideIn 2s ease-out; /* เพิ่มการเลื่อน */
+}
+
+@keyframes slideIn {
+      0% {
+          transform: translateX(-100%); /* เริ่มต้นจากข้างขวา */
+      }
+      100% {
+          transform: translateX(0); /* สิ้นสุดที่ตรงกลาง */
+      }
+}
+
+@keyframes slideIn2 {
+      0% {
+          transform: translateX(100%); /* เริ่มต้นจากข้างขวา */
+      }
+      100% {
+          transform: translateX(0); /* สิ้นสุดที่ตรงกลาง */
+      }
 }
 
 .project p {
