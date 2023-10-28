@@ -60,6 +60,7 @@ nav ul li a:hover {
   
 .content-image img {
       width: 100%; 
+      height: auto;
 }
   
 .content-text {
