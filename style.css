@@ -9,13 +9,13 @@ header {
       justify-content: space-between;
       align-items: center;
       background-color: #ffffff;
-      color: #c91212;
+      color: #0004ff;
       padding: 10px 20px;
 }
 
 .logo img {
-      width: 100px;
-      height: 100px;
+      width: 180px;
+      height: 80px;
 }
 
 nav ul {
@@ -29,26 +29,26 @@ nav ul li {
 
 nav ul li a {
       text-decoration: none;
-      color: #c91212;
+      color: #4976a8;
       padding: 10px 20px;
-      border: 2px solid #c91212;
+      border: 2px solid #4976a8;
       border-radius: 5px;
       transition: color 0.3s;
 }
 
 nav ul li a:hover {
-      color: #ff9900;
+      color: #f08358;
 }
 
 .home {
-      background-color: #8a3434;
+      background-color: #4976a8;
       color: #ffffff;
       text-align: center;
       padding: 20px;
 }
 
 .new-content {
-      background-color: #535353;
+      background-color: #ffffff;
       padding: 20px;
       display: flex;
       justify-content: space-between;
@@ -66,12 +66,18 @@ nav ul li a:hover {
 .content-text {
       flex: 2;
       padding: 80px;
-      background-color: #ff7300;
+      background-color: #4976a8;
       text-align: center;
       color: #ffffff;
+      font-family: 'Oswald', sans-serif;
+}
+
+.content-text img{
+      width: 100px;
 }
 
 .content-text h2 {
+      text-align: center;
       font-size: 28px;
 }
 
@@ -80,7 +86,7 @@ nav ul li a:hover {
 }
 
 .skills {
-      background-color: #8a3434;
+      background-color: #4976a8;
       color: #ffffff;
       text-align: center;
       padding: 20px;
@@ -104,7 +110,7 @@ nav ul li a:hover {
 }
 
 .projects {
-      background-color: #8a3434;
+      background-color: #4976a8;
       color: #ffffff;
       text-align: center;
       padding: 20px;
@@ -116,8 +122,8 @@ nav ul li a:hover {
 
 .project {
       color: #ffffff;
-      background-color: #9b3f39;
-      border: 2px solid #e01111;
+      background-color: #4976a8;
+      border: 2px solid #002397;
       padding: 20px;
       margin: 10px 0;
       text-align: right;
