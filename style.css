@@ -133,6 +133,17 @@ nav ul li a:hover {
       animation: slideIn 2s ease-out; /* เพิ่มการเลื่อน */
 }
 
+.project2 {
+      color: #ffffff;
+      background-color: #4976a8;
+      border: 2px solid #002397;
+      padding: 20px;
+      margin: 10px 0;
+      text-align: right;
+      justify-content: space-between;
+      animation: slideIn2 2s ease-out; /* เพิ่มการเลื่อน */
+}
+
 @keyframes slideIn {
       0% {
           transform: translateX(-100%); /* เริ่มต้นจากข้างขวา */
@@ -156,15 +167,15 @@ nav ul li a:hover {
       font-size: 20px;
 }
 
-.image-gallery {
+.image-act {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       margin-top: 10px;
 }
 
-.image-gallery img {
+.image-act img {
       flex: 1;
-      max-width: 24%;
+      max-width: 100%;
       height: auto;
       border-radius: 10px;
 }
